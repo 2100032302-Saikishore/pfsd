@@ -1,0 +1,172 @@
+a=true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> a=true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> a=flase
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'flase' is not defined
+>>> a=bool(true)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> a=T
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'T' is not defined
+>>> a="true"
+>>> type(a)
+<class 'str'>
+>>>
+>>> a="T"
+>>> type(a)
+<class 'str'>
+>>> a=True
+>>> type(a)
+<class 'bool'>
+>>> type(a)
+<class 'bool'>
+>>> #line
+>>> b=[1,2,3,45,]
+>>> type(b)
+<class 'list'>
+>>> c=[kishore,ramesh,7396999242]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'kishore' is not defined
+>>> type(c)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'c' is not defined
+>>> c=["kishore","ramesh",7396999242]
+>>> type(c)
+<class 'list'>
+>>> d=b+c
+>>> print(d)
+[1, 2, 3, 45, 'kishore', 'ramesh', 7396999242]
+>>> e=("klishore",24,7.8)
+>>> type(e)
+<class 'tuple'>
+>>> f=("kishore",5.8,80)
+>>> g=e+f
+>>> print(g)
+('klishore', 24, 7.8, 'kishore', 5.8, 80)
+>>> e=("kishore",24,7.8")
+  File "<stdin>", line 1
+    e=("kishore",24,7.8")
+                       ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>>
+>>> h={
+... "ap":"am",'tn':"ch"}
+>>> print(h)
+{'ap': 'am', 'tn': 'ch'}
+>>> type(h)
+<class 'dict'>
+>>> i=(1:2.3,4:6.8)
+  File "<stdin>", line 1
+    i=(1:2.3,4:6.8)
+        ^
+SyntaxError: invalid syntax
+>>> i={1:2.4,2:5.6}
+>>> print(i)
+{1: 2.4, 2: 5.6}
+>>> j=h+1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+>>> j=h+i
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+>>> h["ap']="bh"
+  File "<stdin>", line 1
+    h["ap']="bh"
+               ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> h["ap"]="bh"
+>>> h['ap]='bh'
+  File "<stdin>", line 1
+    h['ap]='bh'
+              ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> print(h)
+{'ap': 'bh', 'tn': 'ch'}
+>>> h("ap")="kj"
+  File "<stdin>", line 1
+    h("ap")="kj"
+    ^^^^^^^
+SyntaxError: cannot assign to function call here. Maybe you meant '==' instead of '='?
+>>> h["bh"]="kj"
+>>> print(h)
+{'ap': 'bh', 'tn': 'ch', 'bh': 'kj'}
+>>> print(h.pop('ap'))
+bh
+>>> print(h)
+{'tn': 'ch', 'bh': 'kj'}
+>>> print(h.popitem())
+('bh', 'kj')
+>>> print(h)
+{'tn': 'ch'}
+>>> print(h.push('nj':"jk"))
+  File "<stdin>", line 1
+    print(h.push('nj':"jk"))
+                     ^
+SyntaxError: invalid syntax
+>>> h["nj"]='hj'
+>>> print(h)
+{'tn': 'ch', 'nj': 'hj'}
+>>> print(e.popitem())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'popitem'
+>>> print(d.popitem())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'popitem'
+>>> j={"kow is shik","sarabath","kiss hore'}
+  File "<stdin>", line 1
+    j={"kow is shik","sarabath","kiss hore'}
+                                ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>>  j={"kow is shik","sarabath","kiss hore"}
+  File "<stdin>", line 1
+    j={"kow is shik","sarabath","kiss hore"}
+IndentationError: unexpected indent
+>>> j={"kow is shik","sarabath","kiss hore'}
+  File "<stdin>", line 1
+    j={"kow is shik","sarabath","kiss hore'}
+                                ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> j={"kow is shik","sarabath","kiss hore"}
+>>> print(j)
+{'sarabath', 'kow is shik', 'kiss hore'}
+>>> print(j.popitem())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'set' object has no attribute 'popitem'
+>>> j.add('kow")
+  File "<stdin>", line 1
+    j.add('kow")
+          ^
+SyntaxError: unterminated string literal (detected at line 1)
+>>> j.add("kow")
+>>> print(j)
+{'kow', 'sarabath', 'kow is shik', 'kiss hore'}
+>>> k=('kl')
+>>> l=j|k
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for |: 'set' and 'str'
+>>> k={'kl'}
+>>> print(j|k)
+{'kow', 'sarabath', 'kiss hore', 'kow is shik', 'kl'}
+>>> print(j|k)
+{'kow', 'sarabath', 'kiss hore', 'kow is shik', 'kl'}
+>>> print(j&k)
+set()
+>>> print(j&k)
