@@ -1,0 +1,373 @@
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ pytest week2_1.py
+ERROR: file or directory not found: week2_1.py
+
+============================= test session starts =============================
+platform win32 -- Python 3.10.5, pytest-7.1.2, pluggy-1.0.0
+rootdir: C:\Users\csaik
+collected 0 items
+
+============================ no tests ran in 0.01s ============================
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ pwd
+/c/Users/csaik
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TM.blf
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - K L University'/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'StarUML Setup 5.0.2.exe'*
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TM.blf
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{cd9cd412-e445-11ec-aa20-cc6b1e7ec263}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - K L University'/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'StarUML Setup 5.0.2.exe'*
+'Start Menu'@
+ Templates@
+ Untitled.ipynb
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ cd
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ cd Downloads/
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Downloads
+$ pwd
+/c/Users/csaik/Downloads
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Downloads
+$ cd ..
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ pwd
+/c/Users/csaik
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ cd My Documents/
+bash: cd: too many arguments
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$
+GNU bash, version 4.4.23(1)-release (x86_64-pc-msys)
+$ cd MyDocuments/
+bash: cd: MyDocuments/: No such file or directory
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ pwd
+/c/Users/csaik
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~
+$ cd Documents/
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ pwd
+/c/Users/csaik/Documents
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ mkdir 2100032410
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ ped
+bash: ped: command not found
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ pwd
+/c/Users/csaik/Documents
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ mkdir 2100032410
+mkdir: cannot create directory ‘2100032410’: File exists
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ ls
+ 2100032410/  'My Music'@  'My Pictures'@  'My Videos'@
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents
+$ cd 2100032410/
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410
+$ gir
+bash: gir: command not found
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410
+$ git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410
+$ git init
+Initialized empty Git repository in C:/Users/csaik/Documents/2100032410/.git/
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$   git config user.name "Geeda Sarath Chandra Reddy"
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git config user.email "gsarathchandra1382@gmail.com"
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git config user.name
+Geeda Sarath Chandra Reddy
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git config user.email
+gsarathchandra1382@gmail.com
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git config user.name "Chatla Sai Kishore"
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git config user.email "csaikishore145@gmail.com"
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ touch index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ ls
+index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ pwd
+/c/Users/csaik/Documents/2100032410
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git add index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git commit -m "index.html"
+[master (root-commit) 088c1e9] index.html
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git log
+commit 088c1e9608d6b8b646eaa907e9b6a2e71c668e9e (HEAD -> master)
+Author: Chatla Sai Kishore <csaikishore145@gmail.com>
+Date:   Tue Aug 2 09:05:04 2022 +0530
+
+    index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ ls
+
+index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ notepad index.html
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git commit -m"modified head tag ans created  a stylesheet"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ touch style.css
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git add index.html style.css
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        new file:   style.css
+
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git commit -m
+error: switch `m' requires a value
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git commit -m "modified head tag and ctreated a style sheet"
+[master d09f387] modified head tag and ctreated a style sheet
+ 2 files changed, 6 insertions(+)
+ create mode 100644 style.css
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410 (master)
+$ pwd
+/c/Users/csaik/Documents/2100032410
+
+csaik@DESKTOP-VNHK7D8 MINGW64 ~/Documents/2100032410
+$
