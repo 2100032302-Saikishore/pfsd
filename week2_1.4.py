@@ -12,7 +12,7 @@ class doc(med):
         self.b=b
         self.c=c
     def disp(self):
-        print("name ",b)+
+        print("name ",b)
 
         print("specification ",c)
 class pat(doc):
