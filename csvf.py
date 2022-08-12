@@ -11,5 +11,5 @@ with open('names.csv', 'r') as csv_file:
         csv_writer.writeheader()
 
         for line in csv_reader:
-            del line['email']
+           # del line['email']
             csv_writer.writerow(line)
