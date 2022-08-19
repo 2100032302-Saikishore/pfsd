@@ -7,7 +7,6 @@ with open('names.csv', 'r') as csv_file:
         fieldnames = ['first_name', 'last_name']
 
         csv_writer = csv.DictWriter(new_file, fieldnames=fieldnames, delimiter='\t')
-
         csv_writer.writeheader()
 
         for line in csv_reader:
